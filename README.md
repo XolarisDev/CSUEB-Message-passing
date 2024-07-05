@@ -19,12 +19,11 @@ message. On receipt of logout, a ‘logout message’ will be returned with stat
 If the client has sent a ‘login message’, the server will accept ‘text message’ messages.
 On receipt of ‘text message’, the text of text messages will be changed to all caps. The
 capitalized message is then returned to the client in a new ‘text’ message.
+
+
 Client Object:
 Client connects to a listening server object. On connection, pass a ‘login message’ to
 the server. The server will return a login message with a status of ‘success’. Only after
 login, the client prompts the user for text to send to the server. Text is sent using a ‘text
 message’. On receipt of ‘text message’ from server, display the text field to the user. If
 the user enters, ‘logout’, the client sends a ‘logout message’ to the server.
-Deliverables
-Submit your java source files and screenshots of your program operations. Submit only
-your own original work.
